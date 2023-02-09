@@ -19,6 +19,18 @@
   width: 15rem;
   padding: 0.35rem;
 }
+.form-control input:focus {
+  outline: solid 1px blue;
+}
+.error label {
+  color: rgb(136, 2, 2);
+}
+.error input {
+  border-color: rgb(136, 2, 2);
+  color: rgb(136, 2, 2);
+  background-color: rgb(253, 219, 219);
+  outline: solid 1px rgb(136, 2, 2);
+}
 
 #game-configuration {
   width: 90%;
